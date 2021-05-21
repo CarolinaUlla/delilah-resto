@@ -1,6 +1,7 @@
-# delilah-resto es una API para realizar y adminsitrar pedidos. 
+# delilah-resto  is an API for placing and managing orders.
 
-Recursos y tecnologias utilizados:
+
+Resources and technologies used:
 - Node Js
 - Express
 - Body-parser
@@ -9,19 +10,19 @@ Recursos y tecnologias utilizados:
 - Bcrypt
 - Moment
 
-Recursos necesarios:
+Necessary resources:
 - Node
 - MySQL
 
-Pasos para utilizar la API:
-1) clonar el repositorio:
+Steps to use the API:
+1) clone the repository:
 git clone https://github.com/CarolinaUlla/delilah-resto
-2) en la consola, npm install
-3) En el motor de base de datos MySql, copiar las queries que se encuentran en el archivo scripts.txt y ejecutarlas para que se cree la base de datos.
-En la misma ya se encuentran insertados el usuario administrador ( usuario : Caro08, password: contra ) quien tiene los permisos de administrador para acceder a los distintos endpoints con requisito de adminisitrador.
-Tambien se encuentran insertados algunos productos (3) para poder utilizarlos para probar los endpoints de pedidos.
-4)En la linea numero 6 del archivo app.js (const sequelize = new Sequelize('mysql://root:tupassword@localhost:3306/delilah'), reemplazar donde dice "tupassword" por la password con la que vos accedes a tu base de datos.
-5)Desde postman abrir el archivo delilah.postman_collection.json donde se encuentran todos los endpoints para testear la API
-6)Toda la documentacion correspondiente se encuentra en : https://app.swaggerhub.com/apis-docs/CarolinaUlla4/Delilah-Resto/1.0
+2) in the console, npm install
+3) In the MySql database engine, copy the queries found in the scripts.txt file and execute them so that the database is created.
+In it, the administrator user (user: Caro08, password: contra) already has administrator permissions to access the different endpoints.
+There are also some products inserted (3) to be able to use them to test the order endpoints.
+4) In line number 6 of the app.js file (const sequelize = new Sequelize ('mysql: // root: tupassword @ localhost: 3306 / delilah'), you need to replace "tupassword" with the password you use to access to your database.
+5) From postman open the file delilah.postman_collection.json where all the endpoints are located to test the API
+6) All the corresponding documentation can be found at: https://app.swaggerhub.com/apis-docs/CarolinaUlla4/Delilah-Resto/1.0
 
 HAPPY HACKING !
