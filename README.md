@@ -1,4 +1,6 @@
-# delilah-resto  is an API for placing and managing orders.
+# delilah-resto 🍕🍜🍰
+
+API for placing and managing orders.
 
 
 Resources and technologies used:
